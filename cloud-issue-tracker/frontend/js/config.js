@@ -9,4 +9,4 @@ const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
 // Lab 5 Part 11: replace YOUR-API-PROJECT with the domain of your Vercel API project
 const API_BASE_URL = isLocal
   ? 'http://localhost:3000/api/issues'
-  : 'https://YOUR-API-PROJECT.vercel.app/api/issues';
+  : 'https://cloud-issue-tracker-api.vercel.app/api/issues';
